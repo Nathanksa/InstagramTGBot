@@ -19,13 +19,13 @@ if ENVIRONMENT:
     INSTA_PASSWORD = os.environ.get('INSTA_PASSWORD', None)
 else:
     # Fill the Values
-    API_ID = 0
-    API_HASH = ""
-    BOT_TOKEN = ""
+    API_ID = 10658300
+    API_HASH = "728e3bfb3598067c562f86451ef811f2"
+    BOT_TOKEN = "5785161589:AAHog_lU0cKFcTtGa_FN4L5kwRZz4hQE6uU"
     DATABASE_URL = ""
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
     MUST_JOIN = "StarkBots"
     if MUST_JOIN.startswith("@"):
         MUST_JOIN = MUST_JOIN[1:]
-    INSTA_USERNAME = ""
-    INSTA_PASSWORD = ""
+    INSTA_USERNAME = "inst.anathan"
+    INSTA_PASSWORD = "CR2000"
